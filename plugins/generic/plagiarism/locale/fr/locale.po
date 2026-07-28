@@ -1,0 +1,137 @@
+# Weblate Admin <alec@smecher.bc.ca>, 2023.
+# Rodolphe Lemétayer <rlemetayer@protonmail.com>, 2024.
+# Germán Huélamo Bautista <germanhuelamo@gmail.com>, 2024.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-07-26 09:40+0000\n"
+"Last-Translator: Germán Huélamo Bautista <germanhuelamo@gmail.com>\n"
+"Language-Team: French <http://translate.pkp.sfu.ca/projects/plugins/"
+"plagiarism/fr_FR/>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.18.2\n"
+
+msgid "plugins.generic.plagiarism.displayName"
+msgstr "Module de détection de plagiat iThenticate"
+
+msgid "plugins.generic.plagiarism.description"
+msgstr ""
+"Envoyer toutes les soumissions à iThenticate pour détecter d'éventuels cas "
+"de plagiat."
+
+msgid "plugins.generic.plagiarism.manager.settings.usernameRequired"
+msgstr "Le nom d'utilisateur iThenticate est obligatoire"
+
+msgid "plugins.generic.plagiarism.manager.settings.areForced"
+msgstr ""
+"Des paramètres iThenticate ont été trouvés dans config.inc.php et les "
+"paramètres présents ici ne seront pas utilisés."
+
+msgid "plugins.generic.plagiarism.manager.settings.description"
+msgstr ""
+"Paramètres du compte utilisé pour transférer les soumissions vers "
+"iThenticate. Contactez votre administrateur iThenticate pour plus de détails."
+
+msgid "plugins.generic.plagiarism.manager.settings.username"
+msgstr "Nom d'utilisateur iThenticate"
+
+msgid "plugins.generic.plagiarism.manager.settings.password"
+msgstr "Mot de passe iThenticate"
+
+msgid "plugins.generic.plagiarism.manager.settings.passwordRequired"
+msgstr "Le mot de passe iThenticate est obligatoire"
+
+#, fuzzy
+msgid "plugins.generic.plagiarism.errorMessage"
+msgstr "Erreur de traitement iThenticate pour la soumission {$submissionId}: {$errorMessage}"
+
+#, fuzzy
+msgid "plugins.generic.plagiarism.action.submitSubmission.missingPrimaryAuthor.error"
+msgstr "Impossible d'exécuter une vérification de plagiat sur une soumission sans auteur principal pour la publication actuelle."
+
+#, fuzzy
+msgid "plugins.generic.plagiarism.file.statusText.waitingOnReportSchedule"
+msgstr "En attente de la planification du processus de génération du rapport de similarité."
+
+#, fuzzy
+msgid "plugins.generic.plagiarism.file.statusText.reportScheduleCompletd"
+msgstr "La génération du rapport de similarité a été planifiée avec succès."
+
+#, fuzzy
+msgid "plugins.generic.plagiarism.file.statusText.waitingOnSimilarityScore"
+msgstr "En attente de générer un résultat de similarité."
+
+#, fuzzy
+msgid "plugins.generic.plagiarism.manager.settings.serviceAccessMissing"
+msgstr "URL de l'API et clé API d'accès au service iThenticate requis manquants."
+
+#, fuzzy
+msgid "plugins.generic.plagiarism.webhook.registration.failed"
+msgstr "L'enregistrement du webhook a échoué pour le contexte {$contextId}. Les soumissions seront téléchargées mais les mises à jour pourraient ne pas arriver."
+
+#, fuzzy
+msgid "plugins.generic.plagiarism.tools.registerWebhooks.register.description"
+msgstr "Enregistrer les webhooks pour le compte iThenticate pour un chemin de contexte donné"
+
+#, fuzzy
+msgid "plugins.generic.plagiarism.tools.registerWebhooks.update.description"
+msgstr "Mettre à jour les webhooks pour le compte iThenticate pour un chemin de contexte donné"
+
+#, fuzzy
+msgid "plugins.generic.plagiarism.tools.registerWebhooks.validate.description"
+msgstr "Valider les webhooks pour le compte iThenticate pour un chemin de contexte donné"
+
+#, fuzzy
+msgid "plugins.generic.plagiarism.tools.registerWebhooks.list.description"
+msgstr "Lister les webhooks pour le compte iThenticate pour tous les contextes disponibles et activés"
+
+#, fuzzy
+msgid "plugins.generic.plagiarism.tools.registerWebhooks.usage.description"
+msgstr "Afficher les paramètres d'utilisation."
+
+#, fuzzy
+msgid "plugins.generic.plagiarism.tools.registerWebhooks.empty.option"
+msgstr "L'option ne peut pas être vide ! Vérifiez la méthode d'utilisation."
+
+#, fuzzy
+msgid "plugins.generic.plagiarism.tools.registerWebhooks.option.doesnt.exists"
+msgstr "L'option {$option} n'existe pas. Vérifiez la méthode d'utilisation."
+
+#, fuzzy
+msgid "plugins.generic.plagiarism.tools.registerWebhooks.option.mean.those"
+msgstr "Vouliez-vous dire l'une des options suivantes ?"
+
+#, fuzzy
+msgid "plugins.generic.plagiarism.tools.registerWebhooks.required.parameters.missing"
+msgstr "Le paramètre requis {$parameter} est manquant pour la commande {$command}."
+
+#, fuzzy
+msgid "plugins.generic.plagiarism.tools.registerWebhooks.required.parameters.missing.example"
+msgstr "Exécutez la commande comme suit : php plugins/generic/plagiarism/tools/webhook.php {$command} --context=CONTEXT_PATH_OR_ID."
+
+#, fuzzy
+msgid "plugins.generic.plagiarism.tools.registerWebhooks.context.not.found"
+msgstr "Aucun contexte trouvé pour le chemin ou l'identifiant de contexte donné : {$contextPathOrId}"
+
+#, fuzzy
+msgid "plugins.generic.plagiarism.tools.registerWebhooks.success"
+msgstr "Opération terminée avec succès."
+
+#, fuzzy
+msgid "plugins.generic.plagiarism.tools.registerWebhooks.error"
+msgstr "L'opération a échoué avec l'erreur"
+
+#, fuzzy
+msgid "plugins.generic.plagiarism.tools.registerWebhooks.webhook.already.configured"
+msgstr "Un webhook iThenticate valide est déjà configuré. Utilisez l'option de mise à jour pour enregistrer un nouveau webhook et remplacer celui existant."
+
+#, fuzzy
+msgid "plugins.generic.plagiarism.tools.registerWebhooks.webhook.deleted.success"
+msgstr "Webhook iThenticate avec l'id : {$webhookId} supprimé avec succès pour le contexte id : {$contextId}"
+
+#, fuzzy
+msgid "plugins.generic.plagiarism.tools.registerWebhooks.webhook.deleted.error"
+msgstr "Impossible de supprimer le webhook iThenticate avec l'id : {$webhookId} pour le contexte id : {$contextId}"

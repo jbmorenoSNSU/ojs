@@ -1,0 +1,54 @@
+# Alexandra Fogtmann-Schulz <alfo@kb.dk>, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-25T15:06:39+00:00\n"
+"PO-Revision-Date: 2022-07-05 07:31+0000\n"
+"Last-Translator: Alexandra Fogtmann-Schulz <alfo@kb.dk>\n"
+"Language-Team: Danish <http://translate.pkp.sfu.ca/projects/plugins/piwik/"
+"da_DK/>\n"
+"Language: da_DK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.piwik.displayName"
+msgstr "Matomo plugin"
+
+msgid "plugins.generic.piwik.description"
+msgstr ""
+"Integrer OJS med Matomo, en gratis open source applikation til "
+"hjemmesidetrafikanalyse. Dette kræver, at Matomo allerede er installeret. Se "
+"<a href=\"https://matomo.org/\" title=\"Matomo\">Matomo website</a> for mere "
+"information."
+
+msgid "plugins.generic.piwik.manager.settings.description"
+msgstr ""
+"<p>Med dette plugin aktiveret kan Matomo bruges til at indsamle og analysere "
+"hjemmesidens brug og trafik for dette tidsskrift. Bemærk, at dette plugin "
+"kræver, at Matomo allerede er installeret. Se <a href=\"https://matomo.org/\""
+" title=\"Matomo website\">Matomo site</a> for mere information.</p>"
+
+msgid "plugins.generic.piwik.manager.settings.piwikUrl"
+msgstr "Matomo-url"
+
+msgid "plugins.generic.piwik.manager.settings.piwikUrlInstructions"
+msgstr ""
+"Den fulde url til din Matomo-installation (dvs. http://myserver.net/matomo)."
+
+msgid "plugins.generic.piwik.manager.settings.piwikUrlRequired"
+msgstr "Indtast en gyldig url. Medtag http:// i starten."
+
+msgid "plugins.generic.piwik.manager.settings.piwikSiteId"
+msgstr "Websteds profil-ID"
+
+msgid "plugins.generic.piwik.manager.settings.piwikSiteIdInstructions"
+msgstr ""
+"Klik, i Matomo, på Indstillinger -> Websteder. Webstedsprofil-ID vises ved "
+"siden af dit webstedsprofilnavn."
+
+msgid "plugins.generic.piwik.manager.settings.piwikSiteIdRequired"
+msgstr "Indtast et webstedsprofil-ID."

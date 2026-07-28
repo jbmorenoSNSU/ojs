@@ -1,0 +1,136 @@
+# Pavel Pisklakov <ppv1979@mail.ru>, 2022, 2023.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-04-29 17:01+0000\n"
+"Last-Translator: Pavel Pisklakov <ppv1979@mail.ru>\n"
+"Language-Team: Russian <http://translate.pkp.sfu.ca/projects/plugins/"
+"plagiarism/ru/>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.13.1\n"
+
+msgid "plugins.generic.plagiarism.description"
+msgstr ""
+"Отправляет все материалы в iThenticate для проверки на возможный плагиат."
+
+msgid "plugins.generic.plagiarism.displayName"
+msgstr "Модуль «Определитель плагиата iThenticate»"
+
+msgid "plugins.generic.plagiarism.manager.settings.description"
+msgstr ""
+"Настройки для учетной записи, используемой для загрузки материалов в "
+"iThenticate. Свяжитесь с Вашим администратором iThenticate для получения "
+"дополнительной информации."
+
+msgid "plugins.generic.plagiarism.manager.settings.username"
+msgstr "Имя пользователя iThenticate"
+
+msgid "plugins.generic.plagiarism.manager.settings.password"
+msgstr "Пароль iThenticate"
+
+msgid "plugins.generic.plagiarism.manager.settings.usernameRequired"
+msgstr "Имя пользователя iThenticate обязательно"
+
+msgid "plugins.generic.plagiarism.manager.settings.passwordRequired"
+msgstr "Пароль iThenticate обязателен"
+
+#, fuzzy
+msgid "plugins.generic.plagiarism.errorMessage"
+msgstr "Ошибка обработки iThenticate для подачи {$submissionId}: {$errorMessage}"
+
+msgid "plugins.generic.plagiarism.manager.settings.areForced"
+msgstr ""
+"Настройки iThenticate найдены в файле config.inc.php, поэтому заданные здесь "
+"настройки не будут использованы."
+
+#, fuzzy
+msgid "plugins.generic.plagiarism.action.submitSubmission.missingPrimaryAuthor.error"
+msgstr "Невозможно выполнить проверку на плагиат в представленной работе, в которой не указан основной автор текущей публикации."
+
+#, fuzzy
+msgid "plugins.generic.plagiarism.file.statusText.waitingOnReportSchedule"
+msgstr "Ожидание планирования процесса создания отчета о сходстве."
+
+#, fuzzy
+msgid "plugins.generic.plagiarism.file.statusText.reportScheduleCompletd"
+msgstr "Создание отчета о сходстве было успешно запланировано."
+
+#, fuzzy
+msgid "plugins.generic.plagiarism.file.statusText.waitingOnSimilarityScore"
+msgstr "Ожидание генерации результата сходства."
+
+#, fuzzy
+msgid "plugins.generic.plagiarism.manager.settings.serviceAccessMissing"
+msgstr "Отсутствуют обязательные URL API доступа к сервису iThenticate и API-ключ."
+
+#, fuzzy
+msgid "plugins.generic.plagiarism.webhook.registration.failed"
+msgstr "Не удалось зарегистрировать webhook для контекста {$contextId}. Материалы будут загружены, но обновления могут не поступить."
+
+#, fuzzy
+msgid "plugins.generic.plagiarism.tools.registerWebhooks.register.description"
+msgstr "Зарегистрировать вебхуки для учетной записи iThenticate для указанного пути контекста"
+
+#, fuzzy
+msgid "plugins.generic.plagiarism.tools.registerWebhooks.update.description"
+msgstr "Обновить вебхуки для учетной записи iThenticate для указанного пути контекста"
+
+#, fuzzy
+msgid "plugins.generic.plagiarism.tools.registerWebhooks.validate.description"
+msgstr "Проверить вебхуки для учетной записи iThenticate для указанного пути контекста"
+
+#, fuzzy
+msgid "plugins.generic.plagiarism.tools.registerWebhooks.list.description"
+msgstr "Список вебхуков для учетной записи iThenticate для всех доступных и включенных контекстов"
+
+#, fuzzy
+msgid "plugins.generic.plagiarism.tools.registerWebhooks.usage.description"
+msgstr "Отобразить параметры использования."
+
+#, fuzzy
+msgid "plugins.generic.plagiarism.tools.registerWebhooks.empty.option"
+msgstr "Опция не может быть пустой! Проверьте метод использования."
+
+#, fuzzy
+msgid "plugins.generic.plagiarism.tools.registerWebhooks.option.doesnt.exists"
+msgstr "Опция {$option} не существует. Проверьте метод использования."
+
+#, fuzzy
+msgid "plugins.generic.plagiarism.tools.registerWebhooks.option.mean.those"
+msgstr "Вы имели в виду один из следующих вариантов?"
+
+#, fuzzy
+msgid "plugins.generic.plagiarism.tools.registerWebhooks.required.parameters.missing"
+msgstr "Отсутствует обязательный параметр {$parameter} для команды {$command}."
+
+#, fuzzy
+msgid "plugins.generic.plagiarism.tools.registerWebhooks.required.parameters.missing.example"
+msgstr "Запустите команду как: php plugins/generic/plagiarism/tools/webhook.php {$command} --context=CONTEXT_PATH_OR_ID."
+
+#, fuzzy
+msgid "plugins.generic.plagiarism.tools.registerWebhooks.context.not.found"
+msgstr "Не найден контекст для указанного пути или ID контекста: {$contextPathOrId}"
+
+#, fuzzy
+msgid "plugins.generic.plagiarism.tools.registerWebhooks.success"
+msgstr "Операция выполнена успешно."
+
+#, fuzzy
+msgid "plugins.generic.plagiarism.tools.registerWebhooks.error"
+msgstr "Операция завершилась с ошибкой"
+
+#, fuzzy
+msgid "plugins.generic.plagiarism.tools.registerWebhooks.webhook.already.configured"
+msgstr "Действительный вебхук iThenticate уже настроен. Используйте опцию обновления для регистрации нового вебхука и замены существующего."
+
+#, fuzzy
+msgid "plugins.generic.plagiarism.tools.registerWebhooks.webhook.deleted.success"
+msgstr "Успешно удален вебхук iThenticate с ID: {$webhookId} для контекста ID: {$contextId}"
+
+#, fuzzy
+msgid "plugins.generic.plagiarism.tools.registerWebhooks.webhook.deleted.error"
+msgstr "Невозможно удалить вебхук iThenticate с ID: {$webhookId} для контекста ID: {$contextId}"

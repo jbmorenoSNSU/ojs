@@ -1,0 +1,1 @@
+1810107116a:3:{s:6:"domain";N;s:12:"plural-forms";s:48:"nplurals=2; plural=n % 10 != 1 || n % 100 == 11;";s:8:"messages";a:1:{s:0:"";a:2:{s:20:"admin.hostedContexts";s:14:"Tengd tímarit";s:28:"admin.locale.maybeIncomplete";s:64:"Þýðingu er mögulega ekki lokið fyrir tugumál merkt með *.";}}}

@@ -1,0 +1,57 @@
+# Hüseyin Körpeoğlu <yoruyenturk@hotmail.com>, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-25T15:06:39+00:00\n"
+"PO-Revision-Date: 2022-07-09 18:41+0000\n"
+"Last-Translator: Hüseyin Körpeoğlu <yoruyenturk@hotmail.com>\n"
+"Language-Team: Turkish <http://translate.pkp.sfu.ca/projects/plugins/piwik/"
+"tr_TR/>\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.piwik.manager.piwikSettings"
+msgstr "Piwik Ayarları"
+
+msgid "plugins.generic.piwik.manager.settings.piwikUrl"
+msgstr "Matomo Url"
+
+msgid "plugins.generic.piwik.manager.settings.piwikUrlInstructions"
+msgstr "Pwik kurulumunuz için tam url (Örneğin: http://myserver.net/piwik)."
+
+msgid "plugins.generic.piwik.manager.settings.piwikUrlRequired"
+msgstr "Lütfen http:// dahil geçerli bir url giriniz."
+
+msgid "plugins.generic.piwik.manager.settings.piwikSiteId"
+msgstr "Site Profil ID'si"
+
+msgid "plugins.generic.piwik.manager.settings.piwikSiteIdRequired"
+msgstr "Lütfen bir site profil N.S.'sı giriniz."
+
+msgid "plugins.generic.piwik.manager.settings.description"
+msgstr ""
+"<p>Bu eklenti ile Piwik, bu dergi için web sitesi kullanımını ve trafiği "
+"toplamak ve analiz etmek için kullanılabilir. Bu eklentinin Piwik'in önceden "
+"kurulu olmasını gerektirdiğini lütfen unutmayın. Daha fazla bilgi için "
+"lütfen <a href=\"https://piwik.org/\" title=\"Piwik site\">Piwik sitesi</a>"
+"ne bakın.</p>"
+
+msgid "plugins.generic.piwik.manager.settings.piwikSiteIdInstructions"
+msgstr ""
+"Matomo içinde Ayarlar -> Web Siteleri'ni tıklayın. Site profili kimliği, "
+"site profili adınızın yanında görüntülenir."
+
+msgid "plugins.generic.piwik.description"
+msgstr ""
+"OJS'yi ücretsiz ve açık kaynaklı bir web sitesi trafik analizi uygulaması "
+"olan Piwik ile entegre edebilirsiniz. Piwik'in önceden kurulu olması "
+"gerekir. Daha fazla bilgi için lütfen <a href=\"https://piwik.org/\" title=\""
+"piwik site\">Piwik sitesi</a>ne bakın."
+
+msgid "plugins.generic.piwik.displayName"
+msgstr "Matomo Eklentisi"
